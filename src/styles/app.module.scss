@@ -1,0 +1,14 @@
+@import "./global";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: $base-color;
+  padding: 0px 0px;
+
+  h1 {
+    color: $base-font-color;
+    font-size: 1.8rem;
+  }
+}
